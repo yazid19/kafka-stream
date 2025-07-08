@@ -16,7 +16,6 @@ import java.util.Map;
 @Configuration
 public class StreamService {
 
-
     @Bean
     public JsonSerde<MyDTO> myDTOEventSerde() {
         JsonSerde<MyDTO> serde = new JsonSerde<>(MyDTO.class);
